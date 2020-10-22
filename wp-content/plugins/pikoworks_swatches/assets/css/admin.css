@@ -1,0 +1,189 @@
+/*for metabox*/
+#pikowroks_vs_tab_data h2{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#pikowroks_vs_tab_data img{
+    margin-right: 20px;
+}
+
+.vs-attribute-img{
+    padding: 5px;
+    border-top: 1px solid #eee;
+}
+.vs-attribute-img button{
+    margin-top: 14px!important;
+}
+
+.vs_group .vs-attribute-img label{
+    padding:18px;margin:0;
+}
+.vs_group button{
+    margin-top: 15px;
+}
+
+/*for gallery metabox*/
+ul.product_images_vs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+[id*="product-images-vs-"] .inside{
+    margin: 0 !important;
+    padding: 0 0 12px;
+}
+[id*="product-images-vs-"] .inside .add_product_images_vs{
+    padding-left: 12px;
+}
+[id*="product-images-vs-"] .inside #product_images_container_vs {
+    padding: 0 0 0 9px;
+}
+ul.product_images_vs li.image,
+#product_images_container_vs ul li.wc-metabox-sortable-placeholder{
+    width: 80px;
+    float: left;
+    cursor: move;
+    border: 1px solid #d5d5d5;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+ul.product_images_vs li.image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul.product_images_vs li.image a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+}
+ul.product_images_vs ul.actions {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none;
+}
+
+ul.product_images_vs ul.actions li {
+    float: right;
+    margin: 0 0 0 2px;
+}
+#product_images_container_vs ul:after,
+#product_images_container_vs ul:before {
+    content: " ";
+    display: table;
+}
+
+#product_images_container_vs ul ul.actions li a.delete:hover before {
+    background-color: #a00;
+}
+
+#product_images_container_vs ul:after {
+    clear: both;
+}
+#product_images_container_vs ul li.wc-metabox-sortable-placeholder {
+    border: 3px dashed #ddd;
+    position: relative;
+}
+
+#product_images_container_vs ul li.wc-metabox-sortable-placeholder:after {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    font-size: 2.618em;
+    line-height: 72px;
+    color: #ddd;
+}
+#product_images_container_vs ul ul.actions li a.delete:before,
+#product_images_container_vs ul ul.actions li a.view:before {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #999;
+    background-color: #fff;
+    text-align: center;
+    left: 0;
+}
+#product_images_container_vs ul ul.actions li a.delete:hover before {
+    color: #a00;
+}
+#product_images_container_vs ul ul.actions {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none;
+}
+
+#product_images_container_vs ul ul.actions li {
+    float: right;
+    margin: 0 0 0 2px;
+}
+#product_images_container_vs ul ul.actions li a {
+    width: 1em;
+    margin: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+#product_images_container_vs ul ul.actions li a.tips {
+    cursor: pointer;
+}
+#product_images_container_vs ul ul.actions li a.view {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+}
+#product_images_container_vs ul ul.actions li a.view:before {
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: ""}
+#product_images_container_vs ul ul.actions li a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+}
+#product_images_container_vs ul ul.actions li a.delete:before {
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-radius: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+#product_images_container_vs ul li.wc-metabox-sortable-placeholder img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#product_images_container_vs ul li:hover ul.actions {
+    display: block;
+}

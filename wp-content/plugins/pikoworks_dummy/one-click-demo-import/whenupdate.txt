@@ -1,0 +1,6 @@
+Need to update:
+
+1. Css file change
+2. View/plugins-page.php change
+3. One-click-import.php file dir path change.
+4.inc/OneClickDemoImport.php menu fix and plugins page added

@@ -1,0 +1,813 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pikoworks Custom Post\n"
+"POT-Creation-Date: 2017-09-16 16:43+0600\n"
+"PO-Revision-Date: 2017-09-16 16:43+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pikoworks_custom_post.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/js_composer/custom-fields.php:162
+msgid "Carousel Style"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:165
+#: core/js_composer/custom-fields.php:175
+#: core/js_composer/custom-fields.php:218
+#: core/js_composer/custom-fields.php:232
+#: core/js_composer/custom-fields.php:245
+msgid "Yes"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:166
+#: core/js_composer/custom-fields.php:176
+#: core/js_composer/custom-fields.php:219
+#: core/js_composer/custom-fields.php:233
+#: core/js_composer/custom-fields.php:246
+msgid "No"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:179
+msgid "Navigation"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:181
+msgid "Show buton 'next' and 'prev' buttons."
+msgstr ""
+
+#: core/js_composer/custom-fields.php:182
+#: core/js_composer/custom-fields.php:196
+#: core/js_composer/custom-fields.php:204
+#: core/js_composer/custom-fields.php:212
+#: core/js_composer/custom-fields.php:225
+#: core/js_composer/custom-fields.php:238
+#: core/js_composer/custom-fields.php:252
+#: core/js_composer/custom-fields.php:263
+msgid "Carousel settings"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:189 core/post-type/shortcodes.php:108
+msgid "Center"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:190
+msgid "Top Center"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:191
+msgid "Small Center"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:192
+msgid "Small top Center right"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:194
+msgid "Next/Prev Button"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:203
+msgid "Hover show Next/Prev Button"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:211
+msgid "Button Light"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:222
+msgid "Bullets"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:224
+msgid "Show Carousel bullets bottom"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:236
+msgid "AutoPlay"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:249
+msgid "Loop"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:251
+msgid "Inifnity loop. Duplicate last and first items to get loop illusion."
+msgstr ""
+
+#: core/js_composer/custom-fields.php:260
+msgid "No Gap"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:261
+msgid "Distance( or space) between 2 item "
+msgstr ""
+
+#: core/js_composer/custom-fields.php:269
+msgid "Multiple item"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:270
+msgid "Single item"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:273
+msgid "Carosuel type"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:275
+msgid "NB: Single item not working below option"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:276
+#: core/js_composer/custom-fields.php:286
+#: core/js_composer/custom-fields.php:296
+msgid "Responsive"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:281
+msgid "Items large Device"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:285
+msgid "Screen resolution of device >= 1200px"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:291
+msgid "Items on Medium Device"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:295
+msgid "Resolution < 1200px || Tablet and Mobile auto fixed"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:309 core/post-type/shortcodes.php:68
+#: core/post-type/shortcodes.php:337 core/post-type/shortcodes.php:447
+msgid "Extra class name"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:311 core/post-type/shortcodes.php:71
+#: core/post-type/shortcodes.php:220 core/post-type/shortcodes.php:339
+#: core/post-type/shortcodes.php:449 core/post-type/shortcodes.php:455
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: core/js_composer/custom-fields.php:316 core/post-type/shortcodes.php:218
+#: core/post-type/shortcodes.php:453
+msgid "Css"
+msgstr ""
+
+#: core/js_composer/custom-fields.php:318 core/post-type/shortcodes.php:221
+#: core/post-type/shortcodes.php:456
+msgid "Design options"
+msgstr ""
+
+#: core/post-type/brand/brand.php:11 core/post-type/brand/brand.php:21
+msgid "Brands"
+msgstr ""
+
+#: core/post-type/brand/brand.php:12
+msgid "Brand"
+msgstr ""
+
+#: core/post-type/brand/brand.php:13
+msgid "Search Brands"
+msgstr ""
+
+#: core/post-type/brand/brand.php:14
+msgid "All Brands"
+msgstr ""
+
+#: core/post-type/brand/brand.php:15
+msgid "Parent Brand"
+msgstr ""
+
+#: core/post-type/brand/brand.php:16
+msgid "Parent Brand:"
+msgstr ""
+
+#: core/post-type/brand/brand.php:17
+msgid "Edit Brand"
+msgstr ""
+
+#: core/post-type/brand/brand.php:18
+msgid "Update Brand"
+msgstr ""
+
+#: core/post-type/brand/brand.php:19
+msgid "Add New Brand"
+msgstr ""
+
+#: core/post-type/brand/brand.php:20
+msgid "New Brand Name"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:3
+#: core/post-type/portfolio/metaboxes/custom-field.php:26
+msgid "Remove All"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:8
+#: core/post-type/portfolio/metaboxes/custom-field.php:19
+msgid "Remove"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:10
+#: core/post-type/ourteam/ourteam.php:132
+#: core/post-type/portfolio/portfolio.php:269 core/post-type/shortcodes.php:301
+#: core/post-type/shortcodes.php:419
+#: core/post-type/testimonial/testimonial.php:121
+msgid "Name"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:14
+msgid "Link"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:18
+msgid "Icon"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:20
+msgid ""
+"Use front awesome icon Class: Example: fa fa-facebook or fa fa-twitter etc"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:21
+msgid "Get front Awesome Class:"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:21
+msgid "Click"
+msgstr ""
+
+#: core/post-type/ourteam/custom-field.php:26
+msgid "Add Social"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:13
+msgid "Our Team Social Settings"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:83 core/post-type/shortcodes.php:236
+msgid "Our Team"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:84
+msgid "Our Team Description"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:89
+#: core/post-type/portfolio/portfolio.php:70
+#: core/post-type/testimonial/testimonial.php:78
+msgid "Parent Item:"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:91
+#: core/post-type/portfolio/portfolio.php:72
+#: core/post-type/testimonial/testimonial.php:80
+msgid "View Item"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:93
+#: core/post-type/portfolio/portfolio.php:74
+#: core/post-type/testimonial/testimonial.php:82
+msgid "Add New"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:94
+#: core/post-type/portfolio/portfolio.php:75
+#: core/post-type/testimonial/testimonial.php:83
+msgid "Edit Item"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:95
+#: core/post-type/portfolio/portfolio.php:76
+#: core/post-type/testimonial/testimonial.php:84
+msgid "Update Item"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:96
+#: core/post-type/portfolio/portfolio.php:77
+#: core/post-type/testimonial/testimonial.php:85
+msgid "Search Item"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:97
+#: core/post-type/portfolio/portfolio.php:78
+#: core/post-type/testimonial/testimonial.php:86
+msgid "Not found"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:98
+#: core/post-type/portfolio/portfolio.php:79
+#: core/post-type/testimonial/testimonial.php:87
+msgid "Not found in Trash"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:133
+#: core/post-type/ourteam/ourteam.php:165
+msgid "Job Position"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:134
+msgid "Picture"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:135
+msgid "Join Date"
+msgstr ""
+
+#: core/post-type/ourteam/ourteam.php:161
+msgid "Our Team Job"
+msgstr ""
+
+#: core/post-type/portfolio/action/ajax-action.php:91
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: core/post-type/portfolio/metaboxes/custom-field.php:13
+msgid "Title"
+msgstr ""
+
+#: core/post-type/portfolio/metaboxes/custom-field.php:17
+msgid "Description"
+msgstr ""
+
+#: core/post-type/portfolio/metaboxes/custom-field.php:24
+msgid "Add custom field"
+msgstr ""
+
+#: core/post-type/portfolio/metaboxes/custom-metabox.php:9
+msgid "Custom Field"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:64 core/post-type/shortcodes.php:94
+msgid "Portfolio"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:65
+msgid "Portfolio Description"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:207
+msgid "Portfolio Single Page Slider image"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:212
+msgid "Gallery"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:217
+msgid "View Detail Style"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:221
+msgid "Inherit from theme options"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:222
+msgid "Horizontal slide"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:223
+msgid "Vertical Image"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:224
+msgid "Slide with sidebar"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:230
+msgid "Single page Sidebar"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:233
+msgid "Select a Sidebar"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:238
+msgid "Video Embaded"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:239
+msgid "If Have portfolio video else leave it"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:270
+msgid "Thumbnail"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:271
+msgid "Categories"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:272
+#: core/post-type/portfolio/templates/single/detail-01.php:46
+#: core/post-type/portfolio/templates/single/detail-02.php:44
+#: core/post-type/portfolio/templates/single/detail-03.php:54
+#: core/post-type/shortcodes.php:302 core/post-type/shortcodes.php:420
+msgid "Date"
+msgstr ""
+
+#: core/post-type/portfolio/portfolio.php:311
+msgid "Show All Categories"
+msgstr ""
+
+#: core/post-type/portfolio/templates/listing.php:75
+msgid "All"
+msgstr ""
+
+#: core/post-type/portfolio/templates/listing.php:170
+msgid "Load more"
+msgstr ""
+
+#: core/post-type/portfolio/templates/single/detail-01.php:40
+#: core/post-type/portfolio/templates/single/detail-03.php:48
+msgid "About."
+msgstr ""
+
+#: core/post-type/portfolio/templates/single/detail-01.php:50
+#: core/post-type/portfolio/templates/single/detail-02.php:48
+#: core/post-type/portfolio/templates/single/detail-03.php:58
+#: core/post-type/shortcodes.php:265 core/post-type/shortcodes.php:373
+msgid "Category"
+msgstr ""
+
+#: core/post-type/portfolio/templates/single/related.php:26
+msgid "Related Project"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:10
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:118
+msgid "Custom Post Change Slug"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:122
+msgid "New slug post type:"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:125
+msgid "Current name post type :"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:127
+msgid "New name post type :"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:131
+msgid "Current slug post type :"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:133
+msgid "New slug post type: "
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:136
+msgid "Current name category :"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:138
+msgid "New name category :"
+msgstr ""
+
+#: core/post-type/posttype-settings/settings.php:145
+msgid "NB: After Changing the post slug Then Refresh Admin Panel."
+msgstr ""
+
+#: core/post-type/shortcodes.php:62 core/post-type/shortcodes.php:210
+#: core/post-type/shortcodes.php:283
+msgid "Image size"
+msgstr ""
+
+#: core/post-type/shortcodes.php:97
+msgid "Display Different type Project layout"
+msgstr ""
+
+#: core/post-type/shortcodes.php:102
+msgid "Display Category Tab Panel Name"
+msgstr ""
+
+#: core/post-type/shortcodes.php:106 core/post-type/shortcodes.php:129
+#: core/post-type/shortcodes.php:298 core/post-type/shortcodes.php:416
+msgid "None"
+msgstr ""
+
+#: core/post-type/shortcodes.php:107
+msgid "Left"
+msgstr ""
+
+#: core/post-type/shortcodes.php:109
+msgid "Right"
+msgstr ""
+
+#: core/post-type/shortcodes.php:114
+msgid "Different Layout style"
+msgstr ""
+
+#: core/post-type/shortcodes.php:117
+msgid "Grid"
+msgstr ""
+
+#: core/post-type/shortcodes.php:118
+msgid "Masonry 01"
+msgstr ""
+
+#: core/post-type/shortcodes.php:119
+msgid "Masonry 02"
+msgstr ""
+
+#: core/post-type/shortcodes.php:120
+msgid "Masonry 03"
+msgstr ""
+
+#: core/post-type/shortcodes.php:121
+msgid "Masonry Classic"
+msgstr ""
+
+#: core/post-type/shortcodes.php:126
+msgid "Title position "
+msgstr ""
+
+#: core/post-type/shortcodes.php:130
+msgid "After image"
+msgstr ""
+
+#: core/post-type/shortcodes.php:131
+msgid "Overlay"
+msgstr ""
+
+#: core/post-type/shortcodes.php:139
+msgid "Mark to Didable light box icon"
+msgstr ""
+
+#: core/post-type/shortcodes.php:143
+msgid "Target Source"
+msgstr ""
+
+#: core/post-type/shortcodes.php:147
+msgid "From Category"
+msgstr ""
+
+#: core/post-type/shortcodes.php:148
+msgid "From Title(IDs)"
+msgstr ""
+
+#: core/post-type/shortcodes.php:153
+msgid "Portfolio Category"
+msgstr ""
+
+#: core/post-type/shortcodes.php:160
+msgid "Select multiple specific Category or all Category"
+msgstr ""
+
+#: core/post-type/shortcodes.php:165
+msgid "Select Portfolio"
+msgstr ""
+
+#: core/post-type/shortcodes.php:169
+msgid "Select multiple specific title or all Title IDs"
+msgstr ""
+
+#: core/post-type/shortcodes.php:175
+msgid "Number of column"
+msgstr ""
+
+#: core/post-type/shortcodes.php:183 core/post-type/shortcodes.php:190
+msgid "Number of column masonry"
+msgstr ""
+
+#: core/post-type/shortcodes.php:197
+msgid "Order Post Date By"
+msgstr ""
+
+#: core/post-type/shortcodes.php:199 core/post-type/shortcodes.php:318
+#: core/post-type/shortcodes.php:432
+msgid "Descending"
+msgstr ""
+
+#: core/post-type/shortcodes.php:199 core/post-type/shortcodes.php:319
+#: core/post-type/shortcodes.php:433
+msgid "Ascending"
+msgstr ""
+
+#: core/post-type/shortcodes.php:203
+msgid "Padding/ Gap each item"
+msgstr ""
+
+#: core/post-type/shortcodes.php:205
+msgid "Default"
+msgstr ""
+
+#: core/post-type/shortcodes.php:238
+msgid "Differnt style Team"
+msgstr ""
+
+#: core/post-type/shortcodes.php:244
+msgid "Layout Style"
+msgstr ""
+
+#: core/post-type/shortcodes.php:248
+msgid "Classic"
+msgstr ""
+
+#: core/post-type/shortcodes.php:249
+msgid "Modern"
+msgstr ""
+
+#: core/post-type/shortcodes.php:250
+msgid "List"
+msgstr ""
+
+#: core/post-type/shortcodes.php:257 core/post-type/shortcodes.php:365
+msgid "All Team Member"
+msgstr ""
+
+#: core/post-type/shortcodes.php:258 core/post-type/shortcodes.php:366
+msgid "Multi Category Team"
+msgstr ""
+
+#: core/post-type/shortcodes.php:260 core/post-type/shortcodes.php:368
+msgid "Target Team Member"
+msgstr ""
+
+#: core/post-type/shortcodes.php:276
+msgid "Number team Member load"
+msgstr ""
+
+#: core/post-type/shortcodes.php:279
+msgid ""
+"Enter number of Product if you use \"-1\" load all product load. or Enter "
+"specific as you want like as 7, 8,10..."
+msgstr ""
+
+#: core/post-type/shortcodes.php:286
+msgid "270x270"
+msgstr ""
+
+#: core/post-type/shortcodes.php:287
+msgid "390x271"
+msgstr ""
+
+#: core/post-type/shortcodes.php:288
+msgid "306x302"
+msgstr ""
+
+#: core/post-type/shortcodes.php:289
+msgid "436x430"
+msgstr ""
+
+#: core/post-type/shortcodes.php:295 core/post-type/shortcodes.php:413
+msgid "Order by"
+msgstr ""
+
+#: core/post-type/shortcodes.php:299 core/post-type/shortcodes.php:417
+msgid "ID"
+msgstr ""
+
+#: core/post-type/shortcodes.php:300 core/post-type/shortcodes.php:418
+msgid "Author"
+msgstr ""
+
+#: core/post-type/shortcodes.php:303 core/post-type/shortcodes.php:421
+msgid "Modified"
+msgstr ""
+
+#: core/post-type/shortcodes.php:304 core/post-type/shortcodes.php:422
+msgid "Rand"
+msgstr ""
+
+#: core/post-type/shortcodes.php:311 core/post-type/shortcodes.php:425
+msgid "Select how to sort retrieved posts."
+msgstr ""
+
+#: core/post-type/shortcodes.php:315 core/post-type/shortcodes.php:429
+msgid "Order"
+msgstr ""
+
+#: core/post-type/shortcodes.php:326 core/post-type/shortcodes.php:436
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: core/post-type/shortcodes.php:331 core/post-type/shortcodes.php:441
+msgid "Excerpt word"
+msgstr ""
+
+#: core/post-type/shortcodes.php:332
+msgid "Default use Excerpt 25 words "
+msgstr ""
+
+#: core/post-type/shortcodes.php:355
+#: core/post-type/testimonial/testimonial.php:72
+msgid "Testimonial"
+msgstr ""
+
+#: core/post-type/shortcodes.php:356
+msgid "Display Differnt style"
+msgstr ""
+
+#: core/post-type/shortcodes.php:381
+msgid "select style"
+msgstr ""
+
+#: core/post-type/shortcodes.php:384
+msgid "style 1"
+msgstr ""
+
+#: core/post-type/shortcodes.php:385
+msgid "style 2"
+msgstr ""
+
+#: core/post-type/shortcodes.php:386
+msgid "style 3"
+msgstr ""
+
+#: core/post-type/shortcodes.php:395
+msgid "Image replace with icon"
+msgstr ""
+
+#: core/post-type/shortcodes.php:402
+msgid "All text color white"
+msgstr ""
+
+#: core/post-type/shortcodes.php:406
+msgid "Number testimonial load"
+msgstr ""
+
+#: core/post-type/shortcodes.php:409
+msgid ""
+"Enter number of estimonial if you use \"-1\" load all product load. or Enter "
+"specific as you want like as 7, 8,10..."
+msgstr ""
+
+#: core/post-type/shortcodes.php:442
+msgid "Default use Excerpt 55 words "
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:73
+msgid "Testimonial Description"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:122
+#: core/post-type/testimonial/testimonial.php:161
+msgid "Company Name"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:123
+msgid "Client Picture"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:124
+msgid "Comment Date"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:151
+msgid "Testimonial Details"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:156
+msgid "Designation"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:166
+msgid "Company Url"
+msgstr ""
+
+#: core/post-type/testimonial/testimonial.php:167
+msgid "Add company website"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pikoworks Custom Post"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Stock theme functions add new Custom post type, shortcodes ."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themepiko"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.themepiko.com/"
+msgstr ""

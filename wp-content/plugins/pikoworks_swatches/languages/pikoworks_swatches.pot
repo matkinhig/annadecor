@@ -1,0 +1,141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pikoworks Variation Swatches\n"
+"POT-Creation-Date: 2018-11-13 05:00+0600\n"
+"PO-Revision-Date: 2018-11-13 05:00+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pikoworks_swatches.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/class-variation.php:66 core/class-variation.php:141
+msgid "Thumbnail"
+msgstr ""
+
+#: core/class-variation.php:71 core/class-variation.php:147
+#: core/class-variation.php:414
+msgid "Add image"
+msgstr ""
+
+#: core/class-variation.php:72 core/class-variation.php:148
+#: core/class-variation.php:415
+msgid "Remove image"
+msgstr ""
+
+#: core/class-variation.php:97 core/class-variation.php:173
+#: core/class-variation.php:445
+msgid "Choose an image"
+msgstr ""
+
+#: core/class-variation.php:99 core/class-variation.php:175
+#: core/class-variation.php:447
+msgid "Use image"
+msgstr ""
+
+#: core/class-variation.php:232
+msgid "Enable"
+msgstr ""
+
+#: core/class-variation.php:233
+msgid "Disable"
+msgstr ""
+
+#: core/class-variation.php:353
+msgid "Variation Swatches"
+msgstr ""
+
+#: core/class-variation.php:495
+msgid "Enable Variation Swatches"
+msgstr ""
+
+#: core/class-variation.php:515
+msgid "Product Gallery"
+msgstr ""
+
+#: core/class-variation.php:554 core/class-variation.php:566
+msgid "Delete image"
+msgstr ""
+
+#: core/class-variation.php:554 core/class-variation.php:566
+msgid "Delete"
+msgstr ""
+
+#: core/class-variation.php:566
+msgid "Add Images to Product Gallery"
+msgstr ""
+
+#: core/class-variation.php:566
+msgid "Add to gallery"
+msgstr ""
+
+#: core/class-variation.php:566
+msgid "Add product gallery images"
+msgstr ""
+
+#: core/class_option.php:58
+msgid "Variation Swatches Settings"
+msgstr ""
+
+#: core/class_option.php:101
+msgid "General Settings"
+msgstr ""
+
+#: core/class_option.php:108
+msgid "Variation Images when select"
+msgstr ""
+
+#: core/class_option.php:120
+msgid "Show attribute list Shop page"
+msgstr ""
+
+#: core/class_option.php:133
+msgid "Show attribute position"
+msgstr ""
+
+#: core/class_option.php:141
+msgid "Inside product image"
+msgstr ""
+
+#: core/class_option.php:142
+msgid "Above product title"
+msgstr ""
+
+#: core/class_option.php:143
+msgid "Below product title"
+msgstr ""
+
+#: templates/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: templates/variable.php:81
+msgid "Clear"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pikoworks Variation Swatches"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Woocommerce Product Variation image gallery swatches attribute"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themepiko"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.themepiko.com/"
+msgstr ""

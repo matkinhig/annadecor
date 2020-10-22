@@ -1,0 +1,274 @@
+
+/*========================================
+             background color
+=========================================*/
+.round-1 .spinner,
+.various-4 .spinner,
+::-moz-selection,
+::selection,
+.overlay-container .overlay.custom,
+.overlay-container .overlay.custom2,
+
+.header-dropdown.cart-dropdown > a .badge-number,
+.header-search-container .btn,
+.menu-btn:hover .icon-bar, .menu-btn:focus .icon-bar, .menu-btn.open .icon-bar,
+.site-header .header-actions .tools_button .badge-number,
+.mega-menu .tip,
+
+
+input[type="submit"]:hover, button:hover, a.button:hover, .piko-ajax-load a:hover,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.piko-my-account .piko-togoleform,
+.piko-show-account.logged-in .link-account:hover,
+.piko-layout-header .piko-show-account.logged-in .link-account,
+.entry .entry-date.sticky-post,
+.entry.entry-grid.entry-quote blockquote,
+.social-icons i:hover,
+.tp-bullets .tp-bullet:hover,
+.tp-bullets .tp-bullet:focus,
+.tp-bullets .tp-bullet.selected,
+.hesperiden.tparrows:hover,
+.hesperiden.tparrows:focus,
+.tparrows:hover,
+.tparrows:focus,
+.slick-dots li.slick-active button,
+.nav.nav-pills > li > a:hover, .nav.nav-pills > li > a:focus,
+.nav.nav-pills > li.active > a,
+.page-links a:hover,
+.page-links a:focus,
+.filter-sidebar .pikoworks_widget_brands li a:hover ,
+.filter-sidebar .tagcloud a:hover,
+.product-action a:hover,
+.product-label,
+.summary .single_add_to_cart_button,
+.video-gallery a.open:hover:before,
+.popup-gallery .woocommerce-product-gallery__image a:hover:before,
+.woocommerce-pagination .page-numbers li .page-numbers:hover,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.reset_variations:hover, .reset_variations:focus,
+.widget_shopping_cart_content .buttons > a.button + a.button, .widget_shopping_cart_content .buttons > button.button + a.button, .widget_shopping_cart_content .buttons > input.button + a.button,
+.yith-woocompare-widget a.compare.button,
+.yith-woocompare-widget a.clear-all,
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.pagination .prev:hover:before,
+.pagination .prev:focus:before,
+.pagination .next:hover:after,
+.pagination .next:focus:after,
+.footer .widget.instagram-widget .btn.btn-follow,
+.footer .widget.instagram-widget .btn.btn-follow:hover, .footer .widget.instagram-widget .btn.btn-follow:focus,
+
+
+
+.footer-bottom .social-icons .social-icon:hover,
+.scroll-top span:hover,
+
+.sc-pl-2 .progress .progress-bar
+
+
+
+{
+    background-color: #56cfe1;
+}
+
+/*========================================
+    Font Color scream
+=========================================*/
+a:hover, a:focus,
+.text-custom,
+.header-search-container .dropdown.search-dropdown .chosen-results li:hover,
+.header-search-container .dropdown.search-dropdown .chosen-results li.highlighted,
+.header-boxes-container i,
+.header-boxes-container li .icon-telephone4 + span,
+.header-boxes-container li .fa-phone + span,
+.chosen-container .chosen-results li.highlighted ,
+.side-menu > li > a:hover, .side-menu > li > a:focus,
+.side-menu > li.open > a,
+.side-menu li a:hover, .side-menu li a:focus,
+.side-menu li.open > a,
+.side-menu ul ul li a:hover, .side-menu ul ul li a:focus,
+.side-menu .megamenu ul li a:hover,
+.side-menu .megamenu ul li a:focus,
+.side-menu ul ul li.open > a,
+.side-menu .megamenu ul li.open > a,
+.side-menu .mmenu-title:hover, .side-menu .mmenu-title:focus,
+.side-menu .open > .mmenu-title,
+.side-account-menu .account-list li a:hover, .side-account-menu .account-list li a:focus,
+.default .entry .entry-meta-container .entry-meta a:hover,
+.entry .entry-author a:hover,
+.entry .entry-author .author-content .more-link:hover, .entry .entry-author .author-content .more-link:focus,
+.comments .comment h4 a:hover,
+.comments .comment .comment-date a:hover,
+.filter-size-box.active, .filter-size-box:hover, .filter-size-box:focus,
+.filter-brand-list a:hover, .filter-brand-list a:focus,
+.filter-price-container .price-label #low-price-val,
+.filter-price-container .price-label #high-price-val,
+
+
+.woo-single .breadcrumb a:hover,
+.breadcrumb a:hover,
+
+.page-header.parallax .breadcrumb li a:hover,
+.page-header.bg-image .breadcrumb li a:hover,
+
+.nav.nav-pills.nav-bordered > li > a:hover, .nav.nav-pills.nav-bordered > li > a:focus,
+.nav.nav-pills.nav-bordered > li.active > a,
+.arrow li:before,
+.member a:hover,
+.portfolio-details-list a:hover,
+.product-price-container,
+.product.outofstock .product.product4 .product-action .product_type_simple:before,
+.product-category.product h3:hover,
+.quantity .qty-wrap a:hover,
+.woocommerce-info:before,
+.product-innercotent .info-product .title-product a:hover,
+.info-product > h3 a:hover,
+.product-innercotent .info-product .piko-viewdetail:hover,
+.info-product .piko-viewdetail:hover,
+.woocommerce-pagination .page-numbers li .page-numbers.current,
+.product .onsale,
+.product .new,
+.shop_table tbody tr.cart_item td.product-subtotal,
+.shop_table tbody tr.cart_item td.product-remove a:hover,
+.shop_table tbody .cart_item .product-name a:hover,
+.cart_totals table tr.order-total td .amount,
+.shop_table.order_details td.product-name a:hover,
+.woocommerce #content table.wishlist_table.cart a.remove:hover,
+.product_list_widget span.quantity,
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.product-piko-ajax-list .woocommerce-Price-amount,
+.search-results-title a:hover,
+.pagination > li.active > a, .pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:focus,
+.post-navigation a:hover .post-title,
+.post-navigation a:focus .post-title,
+.pagination .current,
+
+
+.footer-bottom .footer-menu li.active a
+
+{
+    color: #56cfe1;
+}
+/*========================================
+    Border Color scream
+=========================================*/
+.panel.panel-custom .panel-heading a,
+.panel.panel-custom .panel-heading a:hover, 
+.panel.panel-custom .panel-heading a:focus,
+
+.header-search-container .dropdown.search-dropdown .dropdown-menu,
+
+input[type="submit"]:hover, button:hover, a.button:hover, .piko-ajax-load a:hover,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.piko-my-account .piko-togoleform,
+.piko-show-account.logged-in .link-account:hover,
+.piko-layout-header .piko-show-account.logged-in .link-account,
+.filter-color-box:hover, .filter-color-box:focus, .filter-color-box.active,
+.filter-size-box:hover,
+.filter-size-box:focus,
+.filter-size-box.active,
+.tp-bullets .tp-bullet:hover,
+.tp-bullets .tp-bullet:focus,
+.tp-bullets .tp-bullet.selected,
+.hesperiden.tparrows:hover,
+.hesperiden.tparrows:focus,
+.tparrows:hover,
+.tparrows:focus,
+.nav.nav-pills.nav-bordered > li > a:hover, .nav.nav-pills.nav-bordered > li > a:focus,
+.nav.nav-pills.nav-bordered > li.active > a,
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover, .lg-outer .lg-thumb-item:focus,
+.filter-sidebar .pikoworks_widget_brands li a:hover,
+.filter-sidebar .tagcloud a:hover,
+.filter-sidebar .widget_price_filter .price_slider_amount button:hover,
+.product-action a:hover,
+.summary .single_add_to_cart_button,
+.video-gallery a.open:hover:before,
+.popup-gallery .woocommerce-product-gallery__image a:hover:before,
+.woocommerce-pagination .page-numbers li .page-numbers:hover,
+.woocommerce-pagination .page-numbers li .page-numbers.current,
+.product .onsale,
+.product .new,
+table.shop_table td.actions .coupon > input[type="submit"]:hover,
+table.shop_table td.actions > input[type="submit"]:hover ,
+.cart_totals .wc-proceed-to-checkout .checkout-button:hover,
+.woocommerce-checkout-payment .form-row.place-order input[type="submit"]:hover,
+.reset_variations:hover, .reset_variations:focus,
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus,
+.pagination > li.active > a, .pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:hover,
+.pagination > li.active > span:focus,
+.pagination .current,
+.pagination .prev:hover:before,
+.pagination .prev:focus:before,
+.pagination .next:hover:after,
+.pagination .next:focus:after,
+.footer .widget.instagram-widget .btn.btn-follow,
+.footer .widget.instagram-widget .btn.btn-follow:hover, .footer .widget.instagram-widget .btn.btn-follow:focus,
+
+.scroll-top span:hover
+
+{
+    border-color: #56cfe1;
+}
+.various-7 .spinner,
+.various-8 .spinner{
+    border-left-color: #56cfe1;
+}
+.various-7 .spinner{
+    border-right-color: #56cfe1;
+}
+.various-8 .spinner{
+    border-top-color: #56cfe1;
+}
+/*========================================
+    secondary Color scream
+=========================================*/
+.woocommerce-message:before,
+.star-rating span,
+#review_form #commentform .stars > span a:hover::before,
+#review_form #commentform .stars > span a.active::before,
+.text-custom4 {
+  color: #fe9931;
+}
+.mega-menu .tip.hot,
+.product-label.discount,
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget .woof .widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider .ui-slider-handle,
+.widget .woof .widget_price_filter .ui-slider .ui-slider-handle{
+  background-color: #fe9931;
+}
+.widget_price_filter .ui-slider .ui-slider-handle:after,
+.widget .woof .widget_price_filter .ui-slider .ui-slider-handle:after {
+  border-top-color: #fe9931;
+}
+.woocommerce-message {
+  border-bottom-color: #fe9931;
+}

@@ -1,0 +1,39 @@
+/* button-set
+-------------------------------------*/
+.rwmb-image-set {
+}
+.rwmb-image-set label {
+	background-color: #fff;
+	display: inline-block;
+	padding: 1px;
+	cursor: pointer;
+	border: solid 3px #ccc;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	max-width: 100%;
+}
+.rwmb-image-set label img {
+	display: block;
+	max-width: 100%;
+}
+
+.rwmb-image-set label.selected {
+	border-color: #45bf55;
+	color: #45bf55;
+	position: relative;
+}
+/*.rwmb-image-set label.selected:before {
+	content: "\f058";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;	
+	font-size: 12px;
+	font-family: FontAwesome;
+	text-align: center;
+	color: #45bf55;
+	border-radius: 0 0 0 5px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+}*/

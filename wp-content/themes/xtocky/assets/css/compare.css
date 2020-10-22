@@ -1,0 +1,725 @@
+/**
+ * The style of the woocommerce compare products
+ */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    margin: 0 !important;
+    padding: 0;
+}
+h1 {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #555555;
+    color: #fff !important;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 22px;
+    display: none;
+}
+table.compare-list {
+    margin: 10px;
+    table-layout: fixed;
+    font-size: 15px;
+}
+body.rtl table.compare-list {
+    float: right;    
+}
+
+/* plugin fixedheadertable fix */
+table.compare-list thead, table.compare-list tfoot {
+    display: none;
+}
+.table-wrapper {
+    width: 100%;
+}
+table.compare-list thead th {
+    background: #4F4F4F;
+    color: #fff;
+    font-weight: 800;
+    padding: 6px 10px;
+    border-bottom: 2px solid #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.076em;
+}
+table.compare-list thead th a.close, h1 a.close {
+    float: right;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+table.compare-list th, table.compare-list td,
+table.compare-list th, table.compare-list .price.repeated td {
+    padding: 18px 30px;
+}
+
+table.compare-list th, table.compare-list td {
+    border-bottom: 1px solid #eee;
+}
+
+table.compare-list tr.remove th, table.compare-list tr.remove td,
+table.compare-list tr.image th,  table.compare-list tr.image td {
+    border-bottom: 0;
+    padding-bottom: 10px;
+}
+table.compare-list tr.image th,  table.compare-list tr.image td{
+    padding-top: 30px !important;
+}
+table.compare-list tr.remove th, table.compare-list tr.remove td{
+    padding-bottom: 20px;
+}
+table.compare-list tr.title th,  table.compare-list tr.title td,
+table.compare-list tr.price th,  table.compare-list tr.price td {
+    border-bottom: 1px solid #eee;
+}
+table.compare-list tr.image th,  table.compare-list tr.image td {
+    height: 186px;
+}
+table.compare-list tr.image th, table.compare-list tr.image td{
+    text-transform: uppercase;
+}
+table.compare-list tr.title th, table.compare-list tr.title td{    
+    text-align: center;
+    padding: 20px 10px 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-transform: inherit;
+    color: #555555;
+}
+table.compare-list tr.price .amount{
+    font-size: 16px;
+}
+table.compare-list tr.price del .amount{
+    font-size: 15px;
+}
+table.compare-list tr.image th, table.compare-list tr.image td,
+table.compare-list tr.price th, table.compare-list tr.price td,
+table.compare-list tr.add-to-cart th, table.compare-list tr.add-to-cart td {
+    padding-top: 5px;
+}
+table.compare-list tr.price th, table.compare-list tr.price td{
+    padding-top: 18px;
+}
+table.compare-list tr.price th, table.compare-list tr.price td{
+    padding-bottom: 18px;
+}
+table.compare-list tr.add-to-cart{
+    display: none;
+}
+table.compare-list tr.image th,
+table.compare-list tr.title th,
+table.compare-list tr.price th,
+table.compare-list tr.add-to-cart th {
+    text-indent: 150%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+table.compare-list tr.price th {
+    text-indent: inherit;
+}
+table.compare-list .description td{
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #888;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+table.compare-list .description ul{
+    list-style: none;
+}
+table.compare-list .remove td a {
+    color: #747373;
+    text-decoration: none;
+}
+table.compare-list .remove td a:hover {
+    color: #555555;
+}
+table.compare-list .remove td a .remove {
+    border-radius: 100% 100% 100% 100%;
+    color: red;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    height: 1em;
+    line-height: 0.81em;
+    text-align: center;
+    text-decoration: none;
+    width: 1em;
+}
+.yith-woocompare-widget ul.products-list a.remove {
+    float: left;
+}
+table.compare-list .remove td a:hover .remove {
+    background-color: red;
+    color: #ffffff;
+}
+table.compare-list .remove td a span{
+    font-size: 20px;
+    color: #BCBCBC;
+}
+table.compare-list .remove td a:hover span{
+    color: #555555;
+}
+.summary .single_add_to_cart_button,
+.product.outofstock .product_type_simple,
+.add_to_cart_button,
+.added_to_cart.wc-forward,
+.product_type_external,
+.product_type_simple,
+.product_type_grouped{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10.5px 22px 8.5px !important;
+  border-radius: 28px;
+  color: #777777 !important;
+  border: 1px solid #c2c2c2 !important;  
+  background-color: transparent !important;
+  text-transform: uppercase;
+  transition: background 0.4s, border-radius 0.4s;
+  text-decoration: none;
+}
+.product.outofstock .product_type_simple:hover,
+.product.outofstock .product_type_simple:focus,
+.product_type_simple:hover,
+.product_type_simple:focus,
+.add_to_cart_button:hover,
+.added_to_cart.wc-forward:hover,
+.product_type_external:hover,
+.product_type_grouped:hover,
+.add_to_cart_button:focus,
+.added_to_cart.wc-forward:focus,
+.product_type_external:focus,
+.product_type_grouped:focus {
+  color: #fff !important;
+  background-color: #56cfe1 !important;
+  border-color: #56cfe1 !important;
+}
+
+.add_to_cart_button.added{
+	display: none !important;
+}
+.button.product_type_variable:before{
+	content: "\e804";
+  	font-family: "fontpiko";
+        margin-right: 8px;
+        font-weight: normal;
+}
+.add_to_cart_button:before,
+.product_type_external:before,
+.product_type_grouped:before{
+	content: "\e804";
+  	font-family: "fontpiko";
+        margin-right: 8px;
+        font-weight: normal;
+}
+.added_to_cart.wc-forward:before{
+	content: "\e808";
+  	font-family: "fontpiko";
+        margin-right: 8px;
+        font-weight: normal;
+}
+.add_to_cart_button.loading:before{
+	content: "\e81d";
+  	font-family: "fontpiko";
+        font-weight: normal;
+}
+
+.add_to_cart_button.loading:before{
+    -webkit-animation: rotateIn .8s infinite linear;
+  animation: rotateIn .8s infinite linear;
+}
+table.compare-list tr.price td {
+    color: #56cfe1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-decoration: none;    
+}
+table.compare-list tr.price td del {
+    color: #bfbfbf;
+}
+
+table.compare-list .stock td span {
+    color: #888;
+}
+table.compare-list .stock td span.out-of-stock {
+    color: #990000;
+}
+del .amount{
+    text-decoration: line-through;
+}
+ins{
+    text-decoration: none;
+}
+table.compare-list th .fixed-th {
+    width: 205px;
+}
+table.compare-list tr.price th,
+table.compare-list th {
+    width: 205px;
+    max-width: 205px;
+    min-width: 205px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666666;
+    text-transform: uppercase;
+    font-family: "Fira Sans", Arial, sans-serif;
+    letter-spacing: 0.08em;
+}
+table.compare-list td {
+    width: 250px;
+    max-width: 250px;
+    min-width: 250px;
+    text-align: center;
+}
+table.compare-list td.odd {
+    background: #fdfdfd;
+}
+table.compare-list td.even {
+    background: #fff;
+}
+table.compare-list td img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DADADA;
+    height: auto;
+    max-width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    max-width: none;
+}
+
+table.compare-list .custom-product-btn th, table.compare-list .custom-product-btn td{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 0;
+}
+/** Fixed Header Table Style */
+/*!
+* jquery.fixedHeaderTable. The jQuery fixedHeaderTable plugin
+*
+* Copyright (c) 2011 Mark Malek
+* http://fixedheadertable.com
+*
+* Licensed under MIT
+* http://www.opensource.org/licenses/mit-license.php
+*
+* http://docs.jquery.com/Plugins/Authoring
+* jQuery authoring guidelines
+*
+* Launch  : October 2009
+* Version : 1.3
+* Released: May 9th, 2011*
+* all CSS sizing (width,height) is done in pixels (px)
+*/
+
+/* @group Reset */
+.fht-table,
+.fht-table thead,
+.fht-table tfoot,
+.fht-table tbody,
+.fht-table tr,
+.fht-table th,
+.fht-table td {
+    /* position */
+    margin: 0;
+    /* size */
+    padding: 0;
+    /* text */
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}
+.fht-table {
+    /* appearance */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* @end */
+/* @group Content */
+.fht-table-wrapper,
+.fht-table-wrapper .fht-thead,
+.fht-table-wrapper .fht-tfoot,
+.fht-table-wrapper .fht-fixed-column .fht-tbody,
+.fht-table-wrapper .fht-fixed-body .fht-tbody,
+.fht-table-wrapper .fht-tbody {
+    /* appearance */
+    overflow: hidden;
+
+    /* position */
+    position: relative;
+}
+.fht-table-wrapper .fht-fixed-body .fht-tbody,
+.fht-table-wrapper .fht-tbody {
+    /* appearance */
+    overflow: auto;
+}
+.fht-table-wrapper .fht-table .fht-cell {
+    /* appearance */
+    overflow: hidden;
+
+    /* size */
+    height: 1px;
+}
+.fht-table-wrapper .fht-fixed-column,
+.fht-table-wrapper .fht-fixed-body {
+    /* position */
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.fht-table-wrapper .fht-fixed-column {
+    /* position */
+    z-index: 1;
+}
+/* @end */
+/*
+ * Table
+ */
+table.dataTable {
+    margin: 0 auto;
+    clear: both;
+    width: 500px;
+}
+table.dataTable thead th {
+    padding: 3px 18px 3px 10px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    *cursor: hand;
+}
+table.dataTable tfoot th {
+    padding: 3px 18px 3px 10px;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+table.dataTable td {
+    padding: 3px 10px;
+}
+table.dataTable td.center,
+table.dataTable td.dataTables_empty {
+    text-align: center;
+}
+/*
+ * Table wrapper
+ */
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+}
+/*
+ * Page length menu
+ */
+.dataTables_length {
+    float: left;
+}
+/*
+ * Filter
+ */
+.dataTables_filter {
+    float: right;
+    text-align: right;
+}
+/*
+ * Table information
+ */
+.dataTables_info {
+    clear: both;
+    float: left;
+}
+/*
+ * Pagination
+ */
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+}
+/* Two button pagination - previous / next */
+.paginate_disabled_previous,
+.paginate_enabled_previous,
+.paginate_disabled_next,
+.paginate_enabled_next {
+    height: 19px;
+    float: left;
+    cursor: pointer;
+    *cursor: hand;
+    color: #111 !important;
+}
+.paginate_disabled_previous:hover,
+.paginate_enabled_previous:hover,
+.paginate_disabled_next:hover,
+.paginate_enabled_next:hover {
+    text-decoration: none !important;
+}
+.paginate_disabled_previous:active,
+.paginate_enabled_previous:active,
+.paginate_disabled_next:active,
+.paginate_enabled_next:active {
+    outline: none;
+}
+.paginate_disabled_previous,
+.paginate_disabled_next {
+    color: #666 !important;
+}
+.paginate_disabled_previous,
+.paginate_enabled_previous {
+    padding-left: 23px;
+}
+.paginate_disabled_next,
+.paginate_enabled_next {
+    padding-right: 23px;
+    margin-left: 10px;
+}
+/* Full number pagination */
+.paging_full_numbers {
+    height: 22px;
+    line-height: 22px;
+}
+.paging_full_numbers a:active {
+    outline: none
+}
+.paging_full_numbers a:hover {
+    text-decoration: none;
+}
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+    border: 1px solid #aaa;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 0 3px;
+    cursor: pointer;
+    *cursor: hand;
+    color: #333 !important;
+}
+.paging_full_numbers a.paginate_button {
+    background-color: #ddd;
+}
+
+.paging_full_numbers a.paginate_button:hover {
+    background-color: #ccc;
+    text-decoration: none !important;
+}
+.paging_full_numbers a.paginate_active {
+    background-color: #99B3FF;
+}
+/*
+ * Processing indicator
+ */
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    margin-left: -125px;
+    margin-top: -15px;
+    padding: 14px 0 2px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    background-color: white;
+}
+.button .icon{
+    padding-right: 10px;
+}
+table.dataTable thead th:active,
+table.dataTable thead td:active {
+    outline: none;
+}
+/*
+ * Scrolling
+ */
+.dataTables_scroll {
+    clear: both;
+}
+.dataTables_scrollBody {
+    *margin-top: -1px;
+    -webkit-overflow-scrolling: touch;
+}
+table.compare-list td .image-wrap img {
+    max-width: 220px;
+}
+#topcontrol {
+    right: 2.30769rem;
+    z-index: 99;
+}
+#topcontrol button {
+    width: 4.61538rem;
+    height: 4.61538rem;
+    color: #45bf55;
+}
+#topcontrol button:hover {
+    color: #fff;
+}
+/*font piko*/
+@font-face {
+  font-family: 'fontpiko';
+  src: url('../fonts/fontpiko.eot?32322373');
+  src: url('../fonts/fontpiko.eot?32322373#iefix') format('embedded-opentype'),
+       url('../fonts/fontpiko.woff2?32322373') format('woff2'),
+       url('../fonts/fontpiko.woff?32322373') format('woff'),
+       url('../fonts/fontpiko.ttf?32322373') format('truetype'),
+       url('../fonts/fontpiko.svg?32322373#fontpiko') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontpiko";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-backward-arrow:before { content: '\e800'; } /* '' */
+.icon-book:before { content: '\e801'; } /* '�?' */
+.icon-camera:before { content: '\e802'; } /* '' */
+.icon-camera2:before { content: '\e803'; } /* '' */
+.icon-cart:before { content: '\e804'; } /* '' */
+.icon-cell-phone:before { content: '\e805'; } /* '' */
+.icon-cell-phone2:before { content: '\e806'; } /* '' */
+.icon-chat:before { content: '\e807'; } /* '' */
+.icon-checkmark:before { content: '\e808'; } /* '' */
+.icon-check-squre:before { content: '\e809'; } /* '' */
+.icon-city:before { content: '\e80a'; } /* '' */
+.icon-clean:before { content: '\e80b'; } /* '' */
+.icon-clip:before { content: '\e80c'; } /* '' */
+.icon-coffee-shop:before { content: '\e80d'; } /* '�?' */
+.icon-compare:before { content: '\e80e'; } /* '' */
+.icon-computer:before { content: '\e80f'; } /* '�?' */
+.icon-computer2:before { content: '\e810'; } /* '�?' */
+.icon-computer-monitor:before { content: '\e811'; } /* '' */
+.icon-computer-screen:before { content: '\e812'; } /* '' */
+.icon-cross1:before { content: '\e813'; } /* '' */
+.icon-cross2:before { content: '\e814'; } /* '' */
+.icon-cross3:before { content: '\e815'; } /* '' */
+.icon-dinner:before { content: '\e816'; } /* '' */
+.icon-dinner2:before { content: '\e817'; } /* '' */
+.icon-dj:before { content: '\e818'; } /* '' */
+.icon-drayer:before { content: '\e819'; } /* '' */
+.icon-envalop:before { content: '\e81a'; } /* '' */
+.icon-envalop2:before { content: '\e81b'; } /* '' */
+.icon-envalop3:before { content: '\e81c'; } /* '' */
+.icon-envalop4:before { content: '\e81d'; } /* '�?' */
+.icon-eye:before { content: '\e81e'; } /* '' */
+.icon-flag:before { content: '\e81f'; } /* '' */
+.icon-food:before { content: '\e820'; } /* '' */
+.icon-gift-box:before { content: '\e821'; } /* '' */
+.icon-globe:before { content: '\e822'; } /* '' */
+.icon-grid:before { content: '\e823'; } /* '' */
+.icon-grid-squre:before { content: '\e824'; } /* '' */
+.icon-gym:before { content: '\e825'; } /* '' */
+.icon-headphone:before { content: '\e826'; } /* '' */
+.icon-headphone2:before { content: '\e827'; } /* '' */
+.icon-heart:before { content: '\e828'; } /* '' */
+.icon-info:before { content: '\e829'; } /* '' */
+.icon-iron:before { content: '\e82a'; } /* '' */
+.icon-kitchen-pack:before { content: '\e82b'; } /* '' */
+.icon-kitchen-pack2:before { content: '\e82c'; } /* '' */
+.icon-kitchen-pack3:before { content: '\e82d'; } /* '' */
+.icon-lens:before { content: '\e82e'; } /* '' */
+.icon-lifeguard:before { content: '\e82f'; } /* '' */
+.icon-line3:before { content: '\e830'; } /* '' */
+.icon-line3-1:before { content: '\e831'; } /* '' */
+.icon-list:before { content: '\e832'; } /* '' */
+.icon-list2:before { content: '\e833'; } /* '' */
+.icon-location1:before { content: '\e834'; } /* '' */
+.icon-location2:before { content: '\e835'; } /* '' */
+.icon-location3:before { content: '\e836'; } /* '' */
+.icon-location4:before { content: '\e837'; } /* '' */
+.icon-location5:before { content: '\e838'; } /* '' */
+.icon-lock:before { content: '\e839'; } /* '' */
+.icon-lock2:before { content: '\e83a'; } /* '' */
+.icon-lock3:before { content: '\e83b'; } /* '' */
+.icon-logotype:before { content: '\e83c'; } /* '' */
+.icon-memory-stick:before { content: '\e83d'; } /* '' */
+.icon-microphone:before { content: '\e83e'; } /* '' */
+.icon-music:before { content: '\e83f'; } /* '' */
+.icon-pencil:before { content: '\e840'; } /* '' */
+.icon-postcode:before { content: '\e841'; } /* '�?' */
+.icon-printer:before { content: '\e842'; } /* '' */
+.icon-quote:before { content: '\e843'; } /* '' */
+.icon-search:before { content: '\e844'; } /* '' */
+.icon-setting2:before { content: '\e845'; } /* '' */
+.icon-settings:before { content: '\e846'; } /* '' */
+.icon-sew:before { content: '\e847'; } /* '' */
+.icon-socket:before { content: '\e848'; } /* '' */
+.icon-sound:before { content: '\e849'; } /* '' */
+.icon-star:before { content: '\e84a'; } /* '' */
+.icon-start2:before { content: '\e84b'; } /* '' */
+.icon-suitcase:before { content: '\e84c'; } /* '' */
+.icon-suitcase2:before { content: '\e84d'; } /* '�?' */
+.icon-technology:before { content: '\e84e'; } /* '' */
+.icon-technology2:before { content: '\e84f'; } /* '�?' */
+.icon-technology3:before { content: '\e850'; } /* '�?' */
+.icon-telephone:before { content: '\e851'; } /* '' */
+.icon-telephone2:before { content: '\e852'; } /* '' */
+.icon-telephone3:before { content: '\e853'; } /* '' */
+.icon-telephone4:before { content: '\e854'; } /* '' */
+.icon-truck:before { content: '\e855'; } /* '' */
+.icon-t-shirt:before { content: '\e856'; } /* '' */
+.icon-tv:before { content: '\e857'; } /* '' */
+.icon-user:before { content: '\e858'; } /* '' */
+.icon-user2:before { content: '\e859'; } /* '' */
+.icon-wishlist:before { content: '\e85a'; } /* '' */
+.icon-word2:before { content: '\e85b'; } /* '' */
+.icon-world:before { content: '\e85c'; } /* '' */
+.icon-angle-left:before { content: '\e85d'; } /* '�?' */
+.icon-angle-right:before { content: '\e85e'; } /* '' */
+.icon-armchair:before { content: '\e85f'; } /* '' */
+.icon-arrow-left:before { content: '\e860'; } /* '' */
+.icon-arrow-left2:before { content: '\e861'; } /* '' */
+.icon-arrow-long-left:before { content: '\e862'; } /* '' */
+.icon-arrow-long-right:before { content: '\e863'; } /* '' */
+.icon-arrow-right:before { content: '\e864'; } /* '' */
+.icon-arrow-right2:before { content: '\e865'; } /* '' */

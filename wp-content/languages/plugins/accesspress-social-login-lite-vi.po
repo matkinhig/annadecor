@@ -1,0 +1,288 @@
+# Translation of Plugins - AccessPress Social Login Lite &#8211; Social Login WordPress Plugin - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - AccessPress Social Login Lite &#8211; Social Login WordPress Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-05 01:53:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - AccessPress Social Login Lite &#8211; Social Login WordPress Plugin - Stable (latest release)\n"
+
+#: accesspress-social-login-lite.php:139
+msgid "[%s] Your username and password"
+msgstr "[%s] Tài khoản và mật khẩu"
+
+#: accesspress-social-login-lite.php:134
+msgid "If you have any problems, please contact me at %s."
+msgstr "Nếu bạn cần hỗ trợ, hãy liên hệ qua %s."
+
+#: accesspress-social-login-lite.php:133
+msgid "Password: %s"
+msgstr "Mật khẩu: %s"
+
+#: accesspress-social-login-lite.php:130
+msgid "Welcome to %s! Here's how to log in:"
+msgstr "Chào mừng %s! Xem cách đăng nhập ở đây:"
+
+#: accesspress-social-login-lite.php:129
+msgid "Hi there,"
+msgstr "Xin chào,"
+
+#: accesspress-social-login-lite.php:121 accesspress-social-login-lite.php:135
+msgid "Thanks!"
+msgstr "Xin cảm ơn!"
+
+#: inc/backend/main-page.php:106
+msgid "Height:"
+msgstr "Chiều cao:"
+
+#: inc/backend/main-page.php:99
+msgid "Profile picture image size"
+msgstr "Kích thước ảnh profile"
+
+#: inc/backend/main-page.php:100
+msgid "Width:"
+msgstr "Chiều rộng:"
+
+#: inc/backend/main-page.php:144
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/frontend/shortcode.php:108 inc/frontend/login_integration.php:83
+msgid "Login"
+msgstr "Tài khoản"
+
+#: inc/frontend/login_check.php:655
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr "<strong>Lỗi</strong>: Cookie bị cấm hoặc không được trình duyệt web hỗ trợ. Bạn phải <a href='http://www.google.com/cookies.html'>cho phép cookie</a> để có thể sử dụng trang web này."
+
+#: inc/backend/main-page.php:491
+msgid "Save settings"
+msgstr "Lưu thiết lập"
+
+#: inc/backend/widget.php:37
+msgid "Title: "
+msgstr "Tiêu đề:"
+
+#: inc/backend/main-page.php:365 inc/backend/main-page.php:404
+msgid "Current page"
+msgstr "Trang hiện tại"
+
+#: inc/backend/main-page.php:277
+msgid "Login Form"
+msgstr "Mẫu Đăng nhập"
+
+#: inc/backend/main-page.php:287
+msgid "Comments"
+msgstr "Góp ý"
+
+#: inc/backend/main-page.php:191
+msgid "Google"
+msgstr "Google"
+
+#: inc/backend/main-page.php:270
+msgid "Display options"
+msgstr "Tùy chọn hiển thị"
+
+#: inc/backend/main-page.php:84
+msgid "App ID:"
+msgstr "App ID:"
+
+#: inc/backend/main-page.php:91
+msgid "App Secret:"
+msgstr "App Secret:"
+
+#: inc/backend/main-page.php:114 inc/backend/main-page.php:169
+#: inc/backend/main-page.php:213 inc/backend/main-page.php:383
+#: inc/backend/main-page.php:407 inc/backend/main-page.php:426
+#: inc/backend/main-page.php:448 inc/backend/main-page.php:470
+msgid "Note:"
+msgstr "Ghi chú:"
+
+#: inc/backend/main-page.php:76
+msgid "Facebook"
+msgstr "facebook"
+
+#: inc/frontend/shortcode.php:82 inc/frontend/shortcode.php:109
+#: inc/frontend/login_integration.php:55 inc/frontend/login_integration.php:84
+msgid "Login with"
+msgstr "Đăng nhập qua"
+
+#: inc/frontend/shortcode.php:67 inc/frontend/shortcode.php:72
+#: inc/frontend/login_integration.php:36 inc/frontend/login_integration.php:43
+msgid "You have Access Denied. Please authorize the app to login."
+msgstr "Truy cập của bạn bị từ chối. Hãy xác thực app trước khi login."
+
+#: inc/frontend/login_check.php:25
+msgid "The Facebook SDK requires PHP version 5.4 or higher. Please notify about this error to site admin."
+msgstr "Facebook SDK đòi hỏi phải có PHP phiên bản 5.4 hoặc cao hơn. Hãy thông báo lỗi này cho nhà quản trị website."
+
+#: inc/backend/widget.php:42
+msgid "Login Text: "
+msgstr "Thông báo khi đăng nhập:"
+
+#: inc/backend/widget.php:13
+msgid "AccessPress Social Login Lite Widget"
+msgstr "AccessPress Social Login Lite Widget"
+
+#: inc/backend/save-settings.php:60
+msgid "Settings Saved Successfully."
+msgstr "Thiết lập được lưu lại thành công."
+
+#: inc/backend/main-page.php:496
+msgid "Are you sure you want to restore default settings?"
+msgstr "Bạn có muốn khôi phục lại thiết lập mặc định không?"
+
+#: inc/backend/main-page.php:468
+msgid "Do not send email notification to both user and site admin."
+msgstr "Không gửi email thông báo tới cả người dùng và người quản trị website."
+
+#: inc/backend/main-page.php:463
+msgid "Send email notification to both user and site admin."
+msgstr "Gửi email thông báo tới cả người dùng và người quản trị website."
+
+#: inc/backend/main-page.php:457
+msgid "Email notification settings"
+msgstr "Thiết lập Email thông báo"
+
+#: inc/backend/main-page.php:446
+msgid "Use the profile picture from social media where available."
+msgstr "Sử dụng hình ảnh của người dùng trên mạng xã hội làm avatar (nếu có thể)."
+
+#: inc/backend/main-page.php:441
+msgid "Use wordpress provided default avatar."
+msgstr "Sử dụng hình ảnh mặc định của wordpress để làm avatar chung cho người dùng"
+
+#: inc/backend/main-page.php:435
+msgid "User avatar"
+msgstr "Avatar người dùng"
+
+#: inc/backend/main-page.php:372 inc/backend/main-page.php:415
+msgid "Custom page"
+msgstr "Trang web hiện thời"
+
+#: inc/backend/main-page.php:393
+msgid "Login redirect link"
+msgstr "Sau khi login thì nhảy tới link"
+
+#: inc/backend/main-page.php:419
+msgid "Login redirect page:"
+msgstr "Sau khi login thì nhảy tới trang:"
+
+#: inc/backend/main-page.php:376
+msgid "Logout redirect page:"
+msgstr "Sau khi login thì nhảy tới trang:"
+
+#: inc/backend/main-page.php:294
+msgid "Available icon themes"
+msgstr "Các giao diện icon được hỗ trợ"
+
+#: inc/backend/main-page.php:360 inc/backend/main-page.php:399
+msgid "Home page"
+msgstr "Trang chủ"
+
+#: inc/backend/main-page.php:339
+msgid "Login text:"
+msgstr "Dòng thông báo khi đăng nhập:"
+
+#: inc/backend/main-page.php:336
+msgid "Text settings"
+msgstr "Các thiết lập về nội dung"
+
+#: inc/backend/main-page.php:352
+msgid "Logout redirect link"
+msgstr "Sau khi đăng nhập, thì nhảy tới link"
+
+#: inc/backend/main-page.php:272
+msgid "Please choose the options where you want to display the social login form."
+msgstr "Chọn cách trình bày form đăng nhập qua mạng xã hội."
+
+#: inc/backend/main-page.php:282
+msgid "Register Form"
+msgstr "Mẫu Đăng ký"
+
+#: inc/backend/main-page.php:260
+msgid "Enable social login?"
+msgstr "Cho phép đăng nhập qua mạng xã hội?"
+
+#: inc/backend/main-page.php:160
+msgid "Consumer Secret (API Secret):"
+msgstr "Consumer Secret (API Secret):"
+
+#: inc/backend/main-page.php:205
+msgid "Client Secret:"
+msgstr "Client Secret:"
+
+#: inc/backend/main-page.php:198
+msgid "Client ID:"
+msgstr "Client ID:"
+
+#: inc/backend/main-page.php:257
+msgid "Social login"
+msgstr "Social login"
+
+#: inc/backend/main-page.php:152
+msgid "Consumer Key (API Key):"
+msgstr "Consumer Key (API Key):"
+
+#: inc/backend/main-page.php:79 inc/backend/main-page.php:147
+#: inc/backend/main-page.php:194
+msgid "Enable?"
+msgstr "Kích hoạt?"
+
+#: accesspress-social-login-lite.php:448
+msgid "Settings restored Successfully."
+msgstr "Thiết lập cũ được khôi phục Thành công."
+
+#: inc/backend/widget.php:12 inc/backend/main-page.php:6
+#: inc/backend/main-page.php:7
+msgid "AccessPress Social Login Lite"
+msgstr "AccessPress Social Login Lite"
+
+#: inc/backend/main-page.php:57
+msgid "Network settings"
+msgstr "Các thiết lập về mạng xã hội"
+
+#: inc/backend/main-page.php:58
+msgid "Other settings"
+msgstr "Các thiết lập khác"
+
+#: inc/backend/main-page.php:59
+msgid "How to use"
+msgstr "Cách sử dụng"
+
+#: accesspress-social-login-lite.php:96
+msgid "To set your password, visit the following address:"
+msgstr "Để đặt mật khẩu của bạn, truy cập địa chỉ sau:"
+
+#: accesspress-social-login-lite.php:103
+msgid "[%s] Your username and password info"
+msgstr "[%s] Tên đăng nhập và mật khẩu của bạn"
+
+#: accesspress-social-login-lite.php:75 accesspress-social-login-lite.php:124
+msgid "[%s] New User Registration"
+msgstr "[%s] Thành viên mới đăng ký"
+
+#: accesspress-social-login-lite.php:72 accesspress-social-login-lite.php:95
+#: accesspress-social-login-lite.php:119 accesspress-social-login-lite.php:132
+msgid "Username: %s"
+msgstr "Tên đăng nhập: %s"
+
+#: accesspress-social-login-lite.php:73 accesspress-social-login-lite.php:120
+msgid "E-mail: %s"
+msgstr "Thư điện tử: %s"
+
+#: accesspress-social-login-lite.php:71 accesspress-social-login-lite.php:118
+msgid "New user registration on your site %s:"
+msgstr "Có người dùng mới đăng ký trên website của bạn %s:"
+
+#: accesspress-social-login-lite.php:100
+msgid "If you have any problems, please contact us at %s."
+msgstr "Nếu bạn có bất cứ vấn đề gì, hãy liên hệ với chúng tôi tại %s."
+
+#: accesspress-social-login-lite.php:101
+msgid "Adios!"
+msgstr "Chào!"
